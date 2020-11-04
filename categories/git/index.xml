@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on hiRowan - site of Rowan</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on hiRowan - site of Rowan</description>
+    <title>git on hiRowan - site of Rowan</title>
+    <link>http://localhost:1313/categories/git/</link>
+    <description>Recent content in git on hiRowan - site of Rowan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 02 Nov 2020 14:27:42 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>http://localhost:1313/post/git-doc/</guid>
       <description>1. git 常用命令 1.1. 查看帮助信息 1 2 3 4 5 6 # 查看git 本身帮助信息 git --help # 查看某命令的帮助信息 git &amp;lt;command&amp;gt; -h git log -h 1.2. 配置信息 1 2 3 4 5 # 查看配置信息 git config --list</description>
-    </item>
-    
-    <item>
-      <title>Uml极简文档</title>
-      <link>http://localhost:1313/post/uml-doc/</link>
-      <pubDate>Mon, 02 Nov 2020 14:27:42 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/uml-doc/</guid>
-      <description>1. Relationships Inheritance: 继承， is-a Association: 级联，有关联，但关系不大 表示一种平白的弱关系，比如，羊和草 Aggregation: 聚合，consist of，由&amp;hellip;组成，注意生命周期可</description>
     </item>
     
   </channel>
