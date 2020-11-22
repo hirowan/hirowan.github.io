@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="rowan" /><meta name="description" content="Git 极简文档" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Rowan" /><meta name="description" content="Git 极简文档" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -49,7 +49,7 @@
 <meta itemprop="description" content="Git 极简文档">
 <meta itemprop="datePublished" content="2020-11-02T14:27:42+08:00" />
 <meta itemprop="dateModified" content="2020-11-02T14:27:42+08:00" />
-<meta itemprop="wordCount" content="307">
+<meta itemprop="wordCount" content="312">
 
 
 
@@ -85,12 +85,14 @@
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">归档</li>
+      </a><a href="/thoughts/">
+        <li class="mobile-menu-item">想法</li>
       </a><a href="/tags/">
         <li class="mobile-menu-item">标签</li>
       </a><a href="/categories/">
         <li class="mobile-menu-item">分类</li>
       </a><a href="/about/">
-        <li class="mobile-menu-item">About</li>
+        <li class="mobile-menu-item">关于</li>
       </a>
   </ul>
 </nav>
@@ -107,11 +109,13 @@
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">归档</a>
       </li><li class="menu-item">
+        <a class="menu-item-link" href="/thoughts/">想法</a>
+      </li><li class="menu-item">
         <a class="menu-item-link" href="/tags/">标签</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/categories/">分类</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">About</a>
+        <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
 </nav>
@@ -130,6 +134,8 @@
         <div class="post-category">
             <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"> 技术文档 </a>
             </div>
+          <span class="more-meta"> 约 312 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
     </header>
@@ -152,6 +158,9 @@
     <div class="post-content">
       <h2 id="1-relationships">1. Relationships</h2>
 <p>Inheritance: 继承， <code>is-a</code></p>
+<ul>
+<li>比如，动物和狗</li>
+</ul>
 <p>Association: 级联，有关联，但关系不大</p>
 <ul>
 <li>表示一种平白的弱关系，比如，羊和草</li>
@@ -166,7 +175,7 @@
 <p>Composition: 组合，强调 <code>part of</code>，注意生命周期相同</p>
 <ul>
 <li>组合是比聚合还要强的关系</li>
-<li>它要求普通聚合关系中代表整体的对象负责代表部分对象的生命周期</li>
+<li>整体对象决定局部对象的生命周期，是皮之不存毛将焉附的关系</li>
 <li>比如，游览中心=&gt;展厅、厕所</li>
 <li>must be part of, or doesn&rsquo;t exist</li>
 </ul>
@@ -200,7 +209,7 @@ m..n specific number range
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">rowan</span>
+    <span class="item-content">Rowan</span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -228,23 +237,7 @@ m..n specific number range
     </footer>
   </article>
         </div>
-        <div id="gitalk-container"></div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      var gitalk = new Gitalk({
-        id: '2020-11-02 14:27:42 \u002b0800 CST',
-        title: 'Uml极简文档',
-        clientID: '2b521fd2922d6579305e',
-        clientSecret: '4821f3ac02cfeb45346467155069dcb7e4cee2d1',
-        repo: 'https:\/\/github.com\/hirowan\/hirwoan_blog_comments.git',
-        owner: 'hirowan',
-        admin: ['hirowan'],
-        body: decodeURI(location.href)
-      });
-      gitalk.render('gitalk-container');
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+        
 
   
 
@@ -275,8 +268,7 @@ m..n specific number range
 
   <span class="copyright-year">
     &copy; 
-    2017 - 
-    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>rowan</span>
+    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>Rowan</span>
   </span>
 </div>
 

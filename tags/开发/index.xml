@@ -26,7 +26,7 @@
       <pubDate>Mon, 02 Nov 2020 14:27:42 +0800</pubDate>
       
       <guid>http://localhost:1313/post/uml-doc/</guid>
-      <description>1. Relationships Inheritance: 继承， is-a Association: 级联，有关联，但关系不大 表示一种平白的弱关系，比如，羊和草 Aggregation: 聚合，consist of，由&amp;hellip;组成，注意生命周期可</description>
+      <description>1. Relationships Inheritance: 继承， is-a 比如，动物和狗 Association: 级联，有关联，但关系不大 表示一种平白的弱关系，比如，羊和草 Aggregation: 聚合，consist of，由&amp;hellip;组成，</description>
     </item>
     
   </channel>

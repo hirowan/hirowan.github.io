@@ -6,20 +6,18 @@
     <description>Recent content on hiRowan - site of Rowan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 02 Nov 2020 14:27:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2020 16:49:41 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <title>Dubbo</title>
+      <link>http://localhost:1313/post/dubbo/</link>
+      <pubDate>Thu, 05 Nov 2020 16:49:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <guid>http://localhost:1313/post/dubbo/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -37,7 +35,16 @@ It makes use of a variety of open source projects including:
       <pubDate>Mon, 02 Nov 2020 14:27:42 +0800</pubDate>
       
       <guid>http://localhost:1313/post/uml-doc/</guid>
-      <description>1. Relationships Inheritance: 继承， is-a Association: 级联，有关联，但关系不大 表示一种平白的弱关系，比如，羊和草 Aggregation: 聚合，consist of，由&amp;hellip;组成，注意生命周期可</description>
+      <description>1. Relationships Inheritance: 继承， is-a 比如，动物和狗 Association: 级联，有关联，但关系不大 表示一种平白的弱关系，比如，羊和草 Aggregation: 聚合，consist of，由&amp;hellip;组成，</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hugo is a static site engine written in Go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
     </item>
     
   </channel>

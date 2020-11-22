@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="rowan" /><meta name="description" content="Git 极简文档" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Rowan" /><meta name="description" content="Git 极简文档" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -85,12 +85,14 @@
         <li class="mobile-menu-item">主页</li>
       </a><a href="/post/">
         <li class="mobile-menu-item">归档</li>
+      </a><a href="/thoughts/">
+        <li class="mobile-menu-item">想法</li>
       </a><a href="/tags/">
         <li class="mobile-menu-item">标签</li>
       </a><a href="/categories/">
         <li class="mobile-menu-item">分类</li>
       </a><a href="/about/">
-        <li class="mobile-menu-item">About</li>
+        <li class="mobile-menu-item">关于</li>
       </a>
   </ul>
 </nav>
@@ -107,11 +109,13 @@
       </li><li class="menu-item">
         <a class="menu-item-link" href="/post/">归档</a>
       </li><li class="menu-item">
+        <a class="menu-item-link" href="/thoughts/">想法</a>
+      </li><li class="menu-item">
         <a class="menu-item-link" href="/tags/">标签</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/categories/">分类</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">About</a>
+        <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
 </nav>
@@ -131,6 +135,8 @@
             <a href="/categories/git/"> git </a>
             <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"> 技术文档 </a>
             </div>
+          <span class="more-meta"> 约 1540 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
         
       </div>
     </header>
@@ -457,7 +463,7 @@ git config --global --unset https.proxy
     <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">文章作者</span>
-    <span class="item-content">rowan</span>
+    <span class="item-content">Rowan</span>
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
@@ -475,7 +481,11 @@ git config --global --unset https.proxy
           <a href="/tags/%E5%BC%80%E5%8F%91/">开发</a>
           </div>
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/dubbo/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Dubbo</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         <a class="next" href="/post/uml-doc/">
             <span class="next-text nav-default">Uml极简文档</span>
             <span class="next-text nav-mobile">下一篇</span>
@@ -485,23 +495,7 @@ git config --global --unset https.proxy
     </footer>
   </article>
         </div>
-        <div id="gitalk-container"></div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      var gitalk = new Gitalk({
-        id: '2020-11-02 14:27:42 \u002b0800 CST',
-        title: 'Git极简文档',
-        clientID: '2b521fd2922d6579305e',
-        clientSecret: '4821f3ac02cfeb45346467155069dcb7e4cee2d1',
-        repo: 'https:\/\/github.com\/hirowan\/hirwoan_blog_comments.git',
-        owner: 'hirowan',
-        admin: ['hirowan'],
-        body: decodeURI(location.href)
-      });
-      gitalk.render('gitalk-container');
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
+        
 
   
 
@@ -532,8 +526,7 @@ git config --global --unset https.proxy
 
   <span class="copyright-year">
     &copy; 
-    2017 - 
-    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>rowan</span>
+    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>Rowan</span>
   </span>
 </div>
 
